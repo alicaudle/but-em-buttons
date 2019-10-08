@@ -9,14 +9,13 @@ body {
 .banner-content {
   color: #fff;
   text-shadow: 1px 1px 10px rgba(255, 255, 255, .7);
-  padding-top: 13em;
+  padding-top: 17em;
 }
 
 .btn-ghost {
   color: #90ccc3;
   border: solid #b4fff4 1px;
   border-radius: 8px;
-  padding: 1em;
   transition: all 200ms ease;
 }
 
@@ -26,4 +25,17 @@ body {
   color: #b4fff4;
   border-color: #90ccc3;
   transition: all 200ms ease;
+}
+
+.icon,
+.btn {
+  transition: all 250ms ease;
+}
+
+.btn:active {
+  transform: translate(0, .25em);
+}
+
+.btn-ghost:hover .icon {
+  transform: translate(0, -.5em);
 }
