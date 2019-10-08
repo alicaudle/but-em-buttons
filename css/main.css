@@ -3,5 +3,18 @@ html {
 }
 
 body {
-  background-image: url("../images/seamless-starfield-texture.png");
+  background-image: url("../images/starfield.png");
+}
+
+.banner-content {
+  color: #fff;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, .7)
+}
+
+.btn-ghost {
+  color: #90ccc3;
+  border: solid #b4fff4 1px;
+  border-radius: 8px;
+  padding: 1em;
+  transition: all 200ms ease;
 }
